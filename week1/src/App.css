@@ -1,5 +1,5 @@
 .App {
-  display: flex;
+  display: relative;
   flex: 1;
   height: 100vh;
   justify-content: center;
