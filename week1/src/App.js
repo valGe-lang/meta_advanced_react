@@ -88,7 +88,7 @@ function Root() {
 export default Root;
 
 
-/*
+
 const PasswordErrorMessage = () => {
   return (
     <p className="FieldError">Password should have at least 8 characters</p>
@@ -283,4 +283,3 @@ function App() {
 }
 
 export default App;
-*/

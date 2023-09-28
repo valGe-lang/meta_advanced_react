@@ -43,7 +43,7 @@ export default function App() {
     return ref.current
 }
 
-/*
+
 function App() {
     const [count, setCount] = useState(0);
     useConsoleLog(count);
@@ -186,4 +186,3 @@ export default function App() {
         </div>
     )
 }
-*/
