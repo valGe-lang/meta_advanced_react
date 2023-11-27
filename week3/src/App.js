@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState, useEffect } from "react";
+import FeedbackForm from "./FeedbackForm";
 
 //Exercise 1
 function App() {
@@ -149,3 +150,17 @@ const PanelMouseLogger = ({ mousePosition }) => {
  }
 
  export default App;
+
+function App() {
+  const handleSubmit = () => {
+    console.log('Form submitted');
+  }
+
+  return (
+    <div>
+      <FeedbackForm onSubmit={handleSubmit} />
+    </div>
+  )
+}
+
+  export default App;
